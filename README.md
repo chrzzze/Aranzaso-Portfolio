@@ -8,7 +8,10 @@ Welcome to my portfolio! This repository showcases a collection of my projects, 
 * Certifications and Credentials
 * Contact Details
 
-Each project includes a brief overview, key features, and technologies used.
+_Each project includes a brief overview, key features, and technologies used._
 
 ## Purpose
 This portfolio is built not just to present what I’ve done, but to tell the story of how I think, learn, and solve problems. Whether you're a recruiter, collaborator, or curious visitor, I hope you find something here that resonates.
+
+## Access it here!
+[Cherizze Aranzaso | Portfolio](https://chrzzze.github.io/Aranzaso-Portfolio/)
