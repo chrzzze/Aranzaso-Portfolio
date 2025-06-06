@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----- ICONS ----->
+    <script src="https://kit.fontawesome.com/95f073ebcf.js" crossorigin="anonymous"></script>
+
+    <!----- CSS ----->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cherizze Aranzaso | Portfolio</title>
+    <link rel="shortcut icon" href="images\logo-small.png" type="image/x-icon">
+</head>
+<body>
+    <div class="whole">
+        <!----- NAVIGATION MENU ----->
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <span>CALA</span>
+                </div>
+                <div class="links">
+                    <li><a href="#home" class="menu-link active">HOME</a></li>
+                    <li><a href="#about" class="menu-link">ABOUT</a></li>
+                    <li><a href="#projects" class="menu-link">PROJECTS</a></li>
+                    <li><a href="#certificates" class="menu-link">CERTIFICATES</a></li>
+                    <li><a href="#contact" class="menu-link">CONTACT</a></li>
+                </div>
+                <i class="fa-solid fa-bars" id="hamburg" onclick="bars()"></i>
+                <div class="dropdown">
+                    <div class="links">
+                        <a href="#home">HOME</a>
+                        <a href="#about">ABOUT</a>
+                        <a href="#projects">PROJECTS</a>
+                        <a href="#certificates">CERTIFICATES</a>
+                        <a href="#contact">CONTACT</a>
+                        <i class="fa-solid fa-xmark" id="cancel" onclick="cancel()"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!----- HOME ----->
+        <section>
+            <div class="image">
+                    <img src="images\icon.png" alt="">
+            </div>
+            <div class="main-container">
+                <div class="content">
+                    <h1 data-aos="fade-left">Cherizze <span>Aranzaso</span></h1>
+                    <h3 data-aos="fade-left">BSIT Student</h3>
+                    <p>A first-year student with a passion for both technology and creativity.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="btn">
+                        <button>Connect with me!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----- ABOUT ----->
+        <section class="about" id="about">
+            <div class="content">
+                <div class="title">About Me</div>
+                <div class="about-details">
+                    <div class="left">
+                        <img src="images\ftrd-icon.jpg" alt="">
+                    </div>
+                    <div class="right">
+                        <div class="topic">A student with a passion for programming</div>
+                        <p> I'm aiming to become a well-rounded professional who can blend the technical side of programming with the creative side of graphic design.
+                            I've always been fascinated by how code can make things work and how design can make them beautiful and easy to use.
+                            I believe combining both can lead to really meaningful and engaging digital experiences—whether it's a useful app or a visually appealing interface.
+                            I'm curious, open to learning, and excited to keep exploring the tech world as I grow in both skill and creativity.</p>
+                            <div class="button" id="dlcv">
+                                <button>Download CV</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----- PROJECTS ----->
+        <section class="projects" id="projects">
+            <div class="content">
+                <div class="title"><span>Projects I have done</span></div>
+            </div>
+            <div class="boxes">
+                <a href="https://github.com/chrzzze/Student-Grade-Computer" target="_blank" class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="topic">Student Grade Computer</div>
+                    <p data-aos="fade-right">This project is a console-based application specifically designed to accept, manage, and compute student grades. We designed this concept as the foundation of our Final Project in Computer Programming.</p>
+                </a>
+                <a href="#projects" class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="topic">Projects coming soon.</div>
+                    <p data-aos="fade-right">I am just starting so I don't have any projects so far. I will have projects soon!</p>
+                </a>
+                <!-- TEMPLATE -->
+                <!--
+                <a href="#projects" target="_blank" class="box">
+                    <div class="icon">
+                        
+                    </div>
+                    <div class="topic"> </div>
+                    <p data-aos="fade-right"> </p>
+                </a>
+                -->
+            </div>
+        </section>
+        <!----- CERTIFICATES ----->
+        <section class="certificates" id="certificates">
+            <div class="content">
+                <div class="title">Certificates I earned</div>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <div class="topic">Certificates coming soon.</div>
+                    <P>I am a STEM graduate and a former BSCE student so I don't have any certificates related to BSIT so far. I will have certificates soon!</P>
+                </div>
+                <!-- TEMPLATE -->
+                <!--
+                <div class="box">
+                    <div class="icon">
+                        
+                    </div>
+                    <div class="topic"> </div>
+                    <p> </p>
+                </div>
+                -->
+            </div>
+        </section>
+        <!----- CONTACTS ----->
+        <section class="contact" id="contact">
+            <div class="content">
+                <div class="title">
+                    <span>Send a message</span>
+                </div>
+                <div class="text">
+                    <div class="topic">Have a project in mind or something to share? I'm eager to learn so feel free to reach out!</div>
+                </div>
+                <div class="button">
+                    <button>Let's chat!</button>
+                </div>
+
+                <!--
+            <div class="row">
+                <div class="col">
+                <div class="contact-info">
+                        <h2>Reach me!</h2>
+                        <p><i class="fa-solid fa-envelope"></i> Email: <span>cherizze.aranzaso@gmail.com</span></p>
+                        <p><i class="fa-solid fa-phone"></i> Phone Number: <span>+63 919 242 5496</span></p>
+                        <h3>You can also reach me thru the following:</h3>
+                        <div class="platform-icons">
+                            <a href="https://www.facebook.com/chrzzze" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.linkedin.com/in/cherizze-aranzaso-14a1b3363/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <form action="https://formsubmit.co/cherizze.aranzaso@gmail.com" class="form-control" method="POST">
+                        <div class="form-inputs">
+                        <input class="input-field" type="text" name="Name" placeholder="Name" required>
+                        <input class="input-field" type="email" name="Email" placeholder="Email" required>
+                        </div>
+                        <div class="text-area">
+                            <textarea name="Message" placeholder="Message" required></textarea>
+                        </div>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="value">
+                        <div class="form-button">
+                            <button type="submit"  class="btn">Send <i class="uil uil-message"></i></button>
+                        </div>
+                    </form>
+                </div>
+                -->
+            </div>
+        </section>
+        <!----- FOOTER ----->
+        <footer>
+            <div class="text">
+                <span>Copyright &copy;
+                    <a href="#">Cherizze Aranzaso</a>
+                    | &copy; All rights reserved
+                </span>
+            </div>
+
+            <!--
+            <div class="top-footer">
+                <p>chrzzze</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <a href="#" class="active">HOME</a>
+                    <a href="#">ABOUT</a>
+                    <a href="#">GEAR</a>
+                    <a href="#">PLATFORMS</a>
+                    <a href="#">GAMES</a>
+                    <a href="#">TEAMS</a>
+                    <a href="#">MY SETTINGS</a>
+                    <a href="#">CONTACT</a>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">chrzzze</a> - All rights reserved</p>
+            </div>
+            -->
+        </footer>
+
+        </div>
+    </div>
+    <!----- TYPING ----->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!----- JS SCRIPT ----->
+    <script src="script.js"></script>
+</body>
+</html>
