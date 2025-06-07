@@ -201,7 +201,6 @@ nav{
 
 /** ----- HAMBURGER MENU PANEL (Mobile) ----- **/
 #hamburg{
-    display: none;
     cursor: pointer;
     color: #ECEFCA;
     font-size: 1.8rem;
@@ -235,7 +234,6 @@ nav{
     right: 20px;
     width: 100%;
     text-align: right;
-    display: none;
 }
 
 #cancel{
@@ -254,10 +252,6 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 15px;
-}
-
-.hamburger-menu-panel{
-    display: none;
 }
 
 .hamburger-menu-panel .panel-links .panel-link{
