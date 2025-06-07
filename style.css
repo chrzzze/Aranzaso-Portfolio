@@ -28,7 +28,7 @@
 body{
     width: 100%;
     height: auto;
-    overflow-x: hidden; /* Prevents horizontal scroll from off-screen menu */
+    overflow-x: hidden;
     background-color: #0d1321;
     color: #ECEFCA;
 }
@@ -234,6 +234,7 @@ nav{
     right: 20px;
     width: 100%;
     text-align: right;
+    display: none;
 }
 
 #cancel{
@@ -254,12 +255,16 @@ nav{
     gap: 15px;
 }
 
+.hamburger-menu-panel{
+    display: none;
+}
+
 .hamburger-menu-panel .panel-links .panel-link{
     color: #ECEFCA;
     text-decoration: none;
     font-size: 1.3rem;
     padding: 10px 0;
-    display: block;
+    display: hidden;
     transition: 0.2s linear;
     border-bottom: 1px solid rgba(236, 239, 202, 0.1);
 }
@@ -273,7 +278,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
     visibility: hidden;
@@ -638,6 +643,10 @@ section .main-container{
     color: #ECEFCA;
 }
 
+.contact p i{
+    margin: 0 .7em;
+}
+
 .contact span{
     color: #94B4C1;
 }
@@ -1000,6 +1009,22 @@ footer a{
 
     .boxes .box p{
         font-size: 14px;
+    }
+
+    .projects .boxes{
+        justify-content: center;
+    }
+    
+    .projects .boxes .box{
+        width: 95%;
+        padding: 20px;
+        margin: 5% 0;
+    }
+
+    .certificates .boxes .box{
+        width: auto;
+        padding: 20px;
+        margin: 0 5%;
     }
 
     .contact h3{
