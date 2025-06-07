@@ -201,6 +201,7 @@ nav{
 
 /** ----- HAMBURGER MENU PANEL (Mobile) ----- **/
 #hamburg{
+    display: none;
     cursor: pointer;
     color: #ECEFCA;
     font-size: 1.8rem;
