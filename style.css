@@ -61,6 +61,7 @@ section{
     width: 100%;
     min-height: 100vh;
     margin: auto;
+    overflow: hidden;
 }
 
 section .content{
